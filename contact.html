@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Tokslaw</title>
 </head>
-<body> 
+<body>
     <header>
         <div class="flex-container">
             <nav>
-                <a class=" active" href="/" rel="home">Home</a>
+                <a href="/" rel="home">Home</a>
                 <a href="/about.html" rel="about">About</a>
                 <a href="/project.html" rel="projects" >Project</a>
-                <a href="https://blog.tokslaw.com" target="_blank">Blog</a>
+                <a href="https://blog.tokslaw.com" rel="blog" >Blog</a>
                 <a href="/contact.html" rel="contact">Contact</a>
             </nav>
                 <nav>
@@ -38,77 +38,18 @@
                 </nav>
         </div>
     </header>
-
-    <section class="">
-        <h1 class="title">Toks Lawal</h1>
-        <h2 class="sub-title">Software Engineer</h3>
-        <div class="text-section">
-            <p class="content">
-                I'm a self-taught Software Engineer and Enterprise Architect. I build immersive infrastructure,
-                microservice applications and architecture through carefully crafted code and user-centric solution.
-                </br>
-               I have diverse experience in Enterprise Architecture,application development,Full-Stack engineering and DevOps.
-                </br>
-                I have a deep commitment to deleivering high-quality solutuions that not only meet business needs but also enhance user experience.</br>
-                I believe in the power of collaboration ,working closely with product teams and stakeholders to ensure that technology is aligned with business goals.
-
-                I am passionate about leveraging technology to build innovative,efficient and scalble solutions.My appraoch combines strategic business alignment
-                with technical exceution ,ensuring that organizations can scale efficiently while maintaining security and compliance.
-            </p>
-        
-            
-            
-            <div>
-                <img src="images/Tokslaw.png" alt="Tokslaw" class="img">
-            </div>
-        </div>
-        
-        <div class="skills">
-            <h1 class="skills">Tech Stack</h1>
-            <ul class="btn">
-                <button class="btn">PHP</button>
-                <button class="btn">React</button>
-                <button class="btn">Java</button>
-                <button class="btn">Javascript</button>
-                <button class="btn">CSS,HTML</button>
-                <button class="btn">NodeJS</button>
-            </ul>
-        
-            <h1 class="skills">Skills</h1>
-                <ul>
-                    <button class="btn">Leadership</button>
-                    <button class="btn">Problem Solving</button>
-                    <button class="btn">Communication</button>
-                    <button class="btn">Adapatability</button>
-                    <button class="btn">Strategy</button>
-                    <button class="btn">Project Management</button>
-                    
-                </ul>
-        </div>
-    </section>
-
-
-
-    <footer id="footer">
-        <div class="footer">
-                <div>
-                    <h4>About</h4>
-                </div>
-                <div>
-                    <h4>Project</h4>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                </div>
-        </div>
-    </footer>
-
-  
- 
-
-   
-
-    
-     
+    <div>
+        <h1>Contact</h1>
+        <form>
+            <label for="fname"> First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name"/>
+            <label for="fname"> Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name"/>
+            <label for="message"> Message</label>
+            <textarea></textarea>
+            <!-- <textarea id="message" id="message" name="message" placeholder="message"> -->
+        </form>
+        <button>submit</button>
+    </div>
 </body>
 </html>

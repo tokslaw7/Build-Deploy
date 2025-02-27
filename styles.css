@@ -1,4 +1,165 @@
-:root {
+body{
+    background-color:white;
+}
+
+
+
+.flex-container{
+    display: flex;
+    max-width: 100%;
+    padding: 16px;
+    justify-content: space-between;  
+}
+
+.flex-container nav{
+    font-size: 25px;
+    color: black;
+    /* background-color: #f1f1f1; */
+    border-bottom: 3px solid transparent;
+    padding: 14px 16px;
+   
+}
+.text-section{
+   display: flex;
+   
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+    margin:auto;
+    padding:10px;
+    
+}
+.sub-title{
+    text-align: center;
+    font-family:Georgia;
+    font-size: 20px;
+    padding:10px;
+   
+}
+
+.content{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin:auto;
+}
+.img{
+    width:600px;
+}
+
+.skills-container{
+    display: flex;
+}
+.btn{
+    color:rgb(77, 136, 215);
+    font-size: 25px;
+    border-radius: 5px;
+}
+.skills{
+    font-size: 25px;
+}
+#footer{
+    background-color:white;
+    border: 10px;
+    border-radius:25px;
+    padding:10px;
+    margin:auto;
+    
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+.social-icons{
+    align-items: center;
+    display: inline-flex;
+}
+.social-icons .icon{
+    background-color: transparent;
+}
+
+.button{
+    margin-left:auto;
+    padding: 8px 16px;
+    border: 2px solid transparent;
+}
+
+.button:hover{
+    border:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
     --superhero: 'Bangers', cursive;
     --fantasy: 'MedievalSharp', cursive;
     --space: 'Orbitron', sans-serif;
@@ -73,4 +234,4 @@ button {
     cursor: pointer;
     font-family: var(--font);
     width: 160px;
-}
+} */
