@@ -71,17 +71,21 @@ body{
     display:flex;
     justify-content: space-evenly;
 }
+
+/* Projects */
 .blog{
     width:300px;
     border: 15px;
-    padding:50px;
+    padding:40px;
     margin:20px;
     align-items: center;
     /* justify-content: space-between; */
+    display: flex;
 }
 .img-blog{
     width:550px;
     border-radius: 25px;
+    padding:5px;
    
 }
 
